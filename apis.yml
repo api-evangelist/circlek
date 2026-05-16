@@ -1,16 +1,166 @@
 aid: circlek
 url: https://raw.githubusercontent.com/api-evangelist/circlek/refs/heads/main/apis.yml
-name: CircleK
+name: Circle K
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Retail
   - Convenience Stores
-description: 'A global convenience store and fuel station chain operating thousands of locations across North America, Europe, and Asia. A subsidiary of Alimentation Couche-Tard specializing in quick-service retail.'
+  - Fuel
+  - Loyalty
+  - EV Charging
+  - Fleet
+description: >-
+  Circle K is a global convenience store and fuel station chain operating
+  more than 14,800 stores worldwide including 9,799 locations in North
+  America and 2,697 in Europe across 48 U.S. states and over 30 countries.
+  A subsidiary of Alimentation Couche-Tard, Circle K operates the Inner
+  Circle Rewards loyalty program, the Easy Pay fuel payment system, an
+  EV charging network, and the Circle K PRO Business Fleet Card.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: circlek:inner-circle-rewards
+    name: Circle K Inner Circle Rewards
+    tags:
+      - Loyalty
+      - Rewards
+      - Fuel
+    humanURL: https://www.circlek.com/inner-circle
+    properties:
+      - url: https://www.circlek.com/inner-circle
+        type: Documentation
+    description: >-
+      Inner Circle Rewards is Circle K's free loyalty program letting
+      members earn fuel discounts, food rewards, and other in-store
+      rewards. Membership is managed via the Circle K mobile app,
+      website, and in-store sign-up.
+
+  - aid: circlek:easy-pay
+    name: Circle K Easy Pay
+    tags:
+      - Payments
+      - Fuel
+      - Mobile Payments
+    humanURL: https://www.circlek.com/easy-pay
+    properties:
+      - url: https://www.circlek.com/easy-pay
+        type: Documentation
+    description: >-
+      Easy Pay is Circle K's payment program enabling customers to pay
+      for fuel directly at the pump using their linked checking account
+      with a Circle K Easy Pay card or mobile-app payment.
+
+  - aid: circlek:circle-k-mobile-app
+    name: Circle K Mobile App
+    tags:
+      - Mobile App
+      - Loyalty
+      - Store Locator
+    humanURL: https://www.circlek.com/mobile-app
+    properties:
+      - url: https://www.circlek.com/mobile-app
+        type: Documentation
+    description: >-
+      The Circle K mobile app provides access to Inner Circle Rewards
+      membership, fuel-savings tracking, store locator, deals and offers,
+      digital receipts, and integrated mobile payment.
+
+  - aid: circlek:circle-k-ev-charging
+    name: Circle K EV Charging
+    tags:
+      - EV Charging
+      - Electric Vehicles
+      - Fuel
+    humanURL: https://www.circlek.com/ev-charging
+    properties:
+      - url: https://www.circlek.com/ev-charging
+        type: Documentation
+    description: >-
+      Circle K's EV charging network provides fast charging at select
+      Circle K locations. The network supports CCS, CHAdeMO, and Tesla
+      NACS connectors with payment via app, RFID card, or contactless
+      payment.
+
+  - aid: circlek:circle-k-pro-fleet-card
+    name: Circle K PRO Business Fleet Card
+    tags:
+      - Fleet
+      - B2B
+      - Fuel Cards
+      - Payments
+    humanURL: https://www.circlek.com/circle-k-pro-business-fleet-card
+    properties:
+      - url: https://www.circlek.com/circle-k-pro-business-fleet-card
+        type: Documentation
+    description: >-
+      Circle K PRO Business Fleet Card is a commercial fleet fuel card
+      with discounts at Circle K locations, account-level controls,
+      transaction reporting, and integration with fleet management
+      systems for business and fleet customers.
+
+  - aid: circlek:store-locator
+    name: Circle K Store Locator
+    tags:
+      - Locations
+      - Store Locator
+      - Maps
+    humanURL: https://www.circlek.com/store-locator
+    properties:
+      - url: https://www.circlek.com/store-locator
+        type: Documentation
+    description: >-
+      Circle K store locator for finding stores by ZIP code, city, or
+      geolocation with filters for services such as EV charging, car
+      wash, fuel brand, and 24-hour operation.
 common:
   - type: Website
     url: https://www.circlek.com/
+  - type: ParentCompany
+    url: https://corpo.couche-tard.com/
+  - type: Login
+    url: https://www.circlek.com/sign-in
+  - type: SignUp
+    url: https://www.circlek.com/sign-up
+  - type: Features
+    data:
+      - name: Loyalty Rewards
+        description: Earn fuel and food rewards via Inner Circle Rewards membership.
+      - name: Mobile Payments
+        description: Pay at the pump and in-store via the Circle K mobile app.
+      - name: Easy Pay Fuel Discount
+        description: Linked-account payment for discounted fuel at the pump.
+      - name: EV Charging
+        description: Fast EV charging at select Circle K locations.
+      - name: Fleet Fuel Cards
+        description: Circle K PRO Business Fleet Card for commercial fleets.
+      - name: Store Locator
+        description: Find Circle K locations with service filters.
+      - name: Promotions and Deals
+        description: Limited-time offers and discounts surfaced via the app.
+  - type: UseCases
+    data:
+      - name: Daily Fuel Purchases
+        description: Driver fueling with linked-account discounts and rewards.
+      - name: Snack and Beverage Convenience
+        description: Quick-stop convenience-store purchases with loyalty earning.
+      - name: EV Driver Charging
+        description: Public EV charging during convenience-store visits.
+      - name: Fleet Operator Refueling
+        description: Commercial fleet fuel purchasing with fleet card controls.
+      - name: Cross-Brand Fuel Purchasing
+        description: Purchase fuel under Circle K, Shell, Valero, BP, and other partner brands.
+  - type: Integrations
+    data:
+      - name: Alimentation Couche-Tard
+        description: Canadian parent company headquartered in Laval, Quebec.
+      - name: Shell Branded Fuel
+        description: Some Circle K locations sell Shell-branded fuel under wholesale agreements.
+      - name: Valero Branded Fuel
+        description: Some Circle K locations sell Valero-branded fuel.
+      - name: BP and Exxon Branded Fuel
+        description: Additional fuel brand partnerships at select locations.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
