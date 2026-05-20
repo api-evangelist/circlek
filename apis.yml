@@ -115,6 +115,8 @@ apis:
       geolocation with filters for services such as EV charging, car
       wash, fuel brand, and 24-hour operation.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/circle-k
   - type: Website
     url: https://www.circlek.com/
   - type: ParentCompany
