@@ -163,6 +163,9 @@ common:
         description: Some Circle K locations sell Valero-branded fuel.
       - name: BP and Exxon Branded Fuel
         description: Additional fuel brand partnerships at select locations.
+  - type: DeveloperPortal
+    url: https://developer.circlek.com/
+    description: Public developer portal (verified live 2026-05-22)
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
