@@ -123,7 +123,7 @@ common:
     url: https://corpo.couche-tard.com/
   - type: Login
     url: https://www.circlek.com/sign-in
-  - type: SignUp
+  - type: Signup
     url: https://www.circlek.com/sign-up
   - type: Features
     data:
