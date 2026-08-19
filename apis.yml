@@ -30,7 +30,7 @@ description: >-
   EV charging network, and the Circle K PRO Business Fleet Card.
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: circlek:inner-circle-rewards
     name: Circle K Inner Circle Rewards
