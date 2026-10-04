@@ -74,20 +74,6 @@ apis:
       for fuel directly at the pump using their linked checking account
       with a Circle K Easy Pay card or mobile-app payment.
 
-  - aid: circlek:circle-k-mobile-app
-    name: Circle K Mobile App
-    tags:
-      - Mobile App
-      - Loyalty
-      - Store Locator
-    humanURL: https://www.circlek.com/mobile-app
-    properties:
-      - url: https://www.circlek.com/mobile-app
-        type: Documentation
-    description: >-
-      The Circle K mobile app provides access to Inner Circle Rewards
-      membership, fuel-savings tracking, store locator, deals and offers,
-      digital receipts, and integrated mobile payment.
 
   - aid: circlek:circle-k-ev-charging
     name: Circle K EV Charging
