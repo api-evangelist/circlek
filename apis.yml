@@ -40,7 +40,7 @@ description: >-
   Circle Rewards loyalty program, the Easy Pay fuel payment system, an
   EV charging network, and the Circle K PRO Business Fleet Card.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: circlek:inner-circle-rewards
@@ -127,6 +127,8 @@ apis:
       geolocation with filters for services such as EV charging, car
       wash, fuel brand, and 24-hour operation.
 common:
+  - url: https://www.circlek.com/business/blog
+    type: Blog
   - type: DomainSecurity
     url: security/circlek-domain-security.yml
   - type: LinkedIn
