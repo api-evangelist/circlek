@@ -31,6 +31,13 @@ tags:
   - Fuel
   - Loyalty
   - EV Charging
+  - Fleet Management
+tags_raw:
+  - Retail
+  - Convenience Stores
+  - Fuel
+  - Loyalty
+  - EV Charging
   - Fleet
 description: >-
   Circle K is a global convenience store and fuel station chain operating
@@ -94,6 +101,11 @@ apis:
   - aid: circlek:circle-k-pro-fleet-card
     name: Circle K PRO Business Fleet Card
     tags:
+      - Fleet Management
+      - B2B
+      - Fuel Cards
+      - Payments
+    tags_raw:
       - Fleet
       - B2B
       - Fuel Cards
