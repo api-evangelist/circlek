@@ -1,4 +1,4 @@
-# Circle K (circlek)
+# Circle K
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,47 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Circle K is a global convenience store and fuel station chain operating more than 14,800 stores worldwide. A subsidiary of Alimentation Couche-Tard, Circle K operates the Inner Circle Rewards loyalty program, the Easy Pay fuel payment system, an EV charging network, and the Circle K PRO Business Fleet Card.
+Circle K is a global convenience store and fuel station chain operating more than 14,800 stores worldwide including 9,799 locations in North America and 2,697 in Europe across 48 U.S. states and over 30 countries. A subsidiary of Alimentation Couche-Tard, Circle K operates the Inner Circle Rewards loyalty program, the Easy Pay fuel payment system, an EV charging network, and the Circle K PRO Business Fleet Card.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/circlek/refs/heads/main/apis.yml)
+**Areas:** Retail · Convenience Stores · Fuel · Loyalty · EV Charging · Fleet
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Circle K on APIs.io
 
-## Tags:
+Everything profiled for Circle K is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/circlek/](https://apis.io/providers/circlek/)** — or go straight to one of the APIs or properties below.
 
- - Retail, Convenience Stores, Fuel, Loyalty, EV Charging, Fleet
+### APIs (5)
 
-## Timestamps
+- [Circle K Inner Circle Rewards](https://apis.io/apis/circlek/inner-circle-rewards/) — Inner Circle Rewards is Circle K's free loyalty program letting members earn fuel discounts, food rewards, and other in-store rewards. Membership is managed…
+- [Circle K Easy Pay](https://apis.io/apis/circlek/easy-pay/) — Easy Pay is Circle K's payment program enabling customers to pay for fuel directly at the pump using their linked checking account with a Circle K Easy Pay…
+- [Circle K EV Charging](https://apis.io/apis/circlek/circle-k-ev-charging/) — Circle K's EV charging network provides fast charging at select Circle K locations. The network supports CCS, CHAdeMO, and Tesla NACS connectors with…
+- [Circle K PRO Business Fleet Card](https://apis.io/apis/circlek/circle-k-pro-fleet-card/) — Circle K PRO Business Fleet Card is a commercial fleet fuel card with discounts at Circle K locations, account-level controls, transaction reporting, and…
+- [Circle K Store Locator](https://apis.io/apis/circlek/store-locator/) — Circle K store locator for finding stores by ZIP code, city, or geolocation with filters for services such as EV charging, car wash, fuel brand, and 24-hour…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Circle K Inner Circle Rewards
-Free loyalty program letting members earn fuel discounts and food rewards.
+#### Security (1)
 
-### Circle K Easy Pay
-Linked-checking-account fuel payment system with at-the-pump discounts.
+Authentication, trust centre, and vulnerability disclosure.
 
-### Circle K Mobile App
-Mobile app for loyalty, store locator, deals, and payment.
+- [Circlek Domain Security](https://apis.io/security/circlek/circlek-domain-security/)
 
-### Circle K EV Charging
-Fast EV charging at select Circle K locations.
+## Where to find this API
 
-### Circle K PRO Business Fleet Card
-Commercial fleet fuel card with discounts, controls, and reporting.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-### Circle K Store Locator
-Find Circle K stores by location with service filters.
+- [Website](https://www.circlek.com/)
+- [Blog](https://www.circlek.com/business/blog)
 
-## Common
+## API Evangelist rating
 
-- **Website:** https://www.circlek.com/
-- **ParentCompany:** https://corpo.couche-tard.com/
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 6.6 |
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/circlek/](https://apis.io/providers/circlek/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Circle K: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/circlek/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
